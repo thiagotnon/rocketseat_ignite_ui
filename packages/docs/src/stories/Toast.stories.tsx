@@ -18,7 +18,7 @@ export default {
             background: 'transparent',
             border: '0',
             position: 'relative',
-            height: 'calc(90vh - 20px)',
+            height: 'calc(20vh - 20px)',
             transform: 'scale(1)',
             overflow: 'hidden',
           }}

@@ -1,5 +1,11 @@
 # @orion_ui/react
 
+## 3.0.2
+
+### Patch Changes
+
+- Fix height of viewport on storybook
+
 ## 3.0.1
 
 ### Patch Changes
