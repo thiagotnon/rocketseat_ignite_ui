@@ -1,0 +1,2 @@
+import{c as o}from"./chunk-4NMOSTKD-82fbb5f2.js";import"./index-d475d2ea.js";const e=o({base:"dark",fontBase:'"Roboto", sans-serif',fontCode:"monospace",appBg:"#202024",appContentBg:"#121214",appBorderColor:"#29292e"}),t={parameters:{actions:{argTypesRegex:"^on[A-Z].*"},backgrounds:{default:"@orion_ui",values:[{name:"@orion_ui",value:"#121214"}]},controls:{matchers:{color:/(background|color)$/i,date:/Date$/}},docs:{theme:e,docsMode:"tag"}}};export{t as default};
+//# sourceMappingURL=preview-e26dd7a1.js.map
