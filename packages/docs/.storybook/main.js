@@ -19,5 +19,12 @@ const config = {
   docs: {
     autodocs: true,
   },
+  viteFinal: (config, { configType }) =>{
+    if(configType === 'PRODUCTION'){
+      config.base = '/rocketseat_ignite_ui'
+    }
+    
+    return config
+  }
 };
 export default config;
