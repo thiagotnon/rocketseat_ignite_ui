@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Toast, ToastProps } from '@orion_ui/react'
+import { Box, Toast, ToastProps } from '@orion_ui/react'
 
 export default {
   title: 'Data display/Toast',
@@ -10,6 +10,24 @@ export default {
     open: true,
     children: ' Wednesday, October 23rd at 4pm',
   },
+  decorators: [
+    (Story) => {
+      return (
+        <Box
+          css={{
+            background: 'transparent',
+            border: '0',
+            position: 'relative',
+            height: 'calc(90vh - 20px)',
+            transform: 'scale(1)',
+            overflow: 'hidden',
+          }}
+        >
+          {Story()}
+        </Box>
+      )
+    },
+  ],
   argTypes: {},
 } as Meta<ToastProps>
 

@@ -1,5 +1,11 @@
 # @orion_ui/react
 
+## 3.0.1
+
+### Patch Changes
+
+- Fix position of Toast component
+
 ## 3.0.0
 
 ### Major Changes
