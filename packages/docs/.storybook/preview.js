@@ -5,10 +5,10 @@ const preview = {
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },
     backgrounds: {
-      default: '@ignite-ui',
+      default: '@orion_ui',
       values: [
         {
-          name: '@ignite-ui',
+          name: '@orion_ui',
           value: '#121214',
         },
       ],
